@@ -1,0 +1,26 @@
+{
+  "name": "sistema_de_transmissao_de_canais_de_televissao_via_iptv",
+  "version": "1.0.0",
+  "description": "Este projeto tem a visão exclusivamente educacional, visando a apresentação de tcc de mateus henrique simão na Fatec-Garça/Sp semestre 2º/2022",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "mateus henrique simão",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "admin-bro": "^3.2.5",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "4.9",
+    "mongoose": "^6.6.0"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,css"
+  }
+}
